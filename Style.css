@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: black;
+    overflow: hidden;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: white;
+    }
+nav li{
+    display: inline-block;
+    margin: 15px 20px;
+    font-weight: 600;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.content{
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 2%;
+    color: white;
+}
+.content span{
+    font-size: 25px;
+}
+.content h1{
+    font-size: 80px;
+    margin-bottom: 1%;
+    letter-spacing: 8px;
+}
+.content h3{
+    font-size: 25px;
+    margin-bottom: 3%;
+
+}
+.content h4{
+    font-size: 20px;
+    color: red;
+    margin-bottom: 2%;
+}
+.content li{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+span{color: red}
+
+.content p{
+font-size: 30px;
+    margin-bottom: 2%;
+    font-family: Verdana, cursive;
+}
+button{
+    padding: 15px 30px;
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    border-color: white;
+    }
+button:hover{
+    background: red;
+}
+
+.bike {
+    width: 25%;
+}
+
+footer{
+    width: 80rem;
+    margin-left: -80px;
+    margin-top: 30px;
+    color: gray;
+    font-size: 10px;
+}
